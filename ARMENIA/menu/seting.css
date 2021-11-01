@@ -1,0 +1,25 @@
+nav > ul >a > li {
+    list-style-type: none;
+    color: white;
+    border: black;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    animation: color2 3s alternate infinite;
+    text-align: center;
+}
+
+@keyframes color2{
+    0%{background-color: darkblue; transform: rotate(20deg);}
+    25%{background-color: darkslateblue; transform: rotate(-20deg);}
+    50%{background-color:blue; transform: rotate(20deg);}
+    75%{background-color: cornflowerblue; transform: rotate(-20deg);}
+    80%{background-color: cyan; transform: rotate(0deg); transform: scale(1.5);}
+    90%{background-color: cornsilk; transform: scaleX(2); transform: translate(-30px);}
+    95%{transform: scaleX(-1.1);}
+    100%{transform: scaleX(1.1);}
+}
+
+body {
+    background-color:cyan;
+}

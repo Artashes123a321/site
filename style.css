@@ -1,0 +1,93 @@
+body {
+    background-color:cyan;
+}
+
+
+
+
+
+.icons {
+    color: white;
+    display: inline-block;
+   
+}
+
+
+nav > ul > a > li {
+
+   text-align: center;
+    width: 250px;
+    height: 24px;
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    border: darkblue 1px solid;
+    background-color: darkblue;
+padding-top: 51px;
+padding-bottom: 50px;
+  
+}
+.class {
+    margin-left: 200px;
+ 
+}
+
+nav > ul > a > li:hover {
+animation:li-sharzum 3s alternate;
+
+}
+
+@keyframes li-sharzum {
+
+0%{background-color: darkblue; transform: rotate(20deg);}
+25%{background-color: darkslateblue; transform: rotate(-20deg);}
+50%{background-color:blue; transform: rotate(20deg);}
+75%{background-color: cornflowerblue; transform: rotate(-20deg);}
+80%{background-color: cyan; transform: rotate(0deg); transform: scale(1.5);}
+90%{background-color: cornsilk; transform: scaleX(2); transform: translate(-30px);}
+95%{transform: scaleX(-1.1);}
+100%{transform: scaleX(1.1);}
+}
+#adding{
+    width: 30%;
+    background: gray;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.f{
+    height: 500px;
+    width: 30%;
+    background: gray;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-left: 35%;
+    margin-top: 100px;
+}
+
+
+#about {
+    margin-right:50px ;
+    margin-top: 50px;
+    max-width: 400px;
+    max-height: 100px;
+    min-width: 240px;
+    min-height: 45px;
+    text-decoration: underline;
+}
+
+
+.input{
+    border-left:2px black solid;
+  background: none;
+  border: none;
+  border-bottom: 2px black solid;
+}
+
+::placeholder {
+    text-align: center;
+    color: black;
+}
+
+
